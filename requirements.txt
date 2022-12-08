@@ -6,5 +6,6 @@ gunicorn
 uvicorn
 numpy
 python-multipart
-opencv-python
+#opencv-python
+opencv-python-headless
 streamlit==1.15.2
