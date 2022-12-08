@@ -28,7 +28,7 @@ def predict(image: Image.Image):
     result = model.predict(image)
     probability = result[0]
             #print("VGG Predictions:")
-    if probability[0] > 0.5:
+    if probability[0] > 0.8:
         brainTum_pred = str('%.2f' % (probability[0]*100) + '% Brain Tumor Present') 
     else:
         brainTum_pred = str('%.2f' % ((1-probability[0])*100) + '% No Brain Tumor')
