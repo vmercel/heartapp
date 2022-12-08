@@ -1,0 +1,10 @@
+tensorflow-cpu
+fastapi
+Pillow
+starlette
+gunicorn
+uvicorn
+numpy
+python-multipart
+opencv-python
+streamlit==1.15.2
