@@ -86,7 +86,7 @@ with col1:
 
 with col2:
 #with st.sidebar:    
-    st.write("Developed by AI & IOT Lab https://iot.neu.edu.tr by Mercel Vubangsi (mercel.vubangsi(at)neu.edu.tr)  ")
+    st.write("Developed by AI & IOT Lab https://ai.iot.neu.edu.tr by Mercel Vubangsi (mercel.vubangsi(at)neu.edu.tr)  ")
     #st.header("Sample CT Image")
     st.image( "./heart.png", width=300, caption='Sample Heart MRI Image')#width=400
 
