@@ -86,9 +86,9 @@ with col1:
 
 with col2:
 #with st.sidebar:    
-    st.write("Developed by AI & IOT Lab https://iot.neu.edu.tr by Olusegun Odewole (oooladeleodewole(at)gmail)  ")
+    st.write("Developed by AI & IOT Lab https://iot.neu.edu.tr by Mercel Vubangsi (mercel.vubangsi(at)neu.edu.tr)  ")
     #st.header("Sample CT Image")
-    st.image( "https://res.cloudinary.com/segestic/image/upload/v1670497190/covid/images/Y99_ntvrog.jpg", width=300, caption='Sample CT-Scan Image')#width=400
+    st.image( "./heart.png", width=300, caption='Sample Heart MRI Image')#width=400
 
 
 
