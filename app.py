@@ -44,7 +44,7 @@ def image_predict (image_file):
     return  brain_tumor_pred
          
 
-st.title("🦠 Brain Tumor Prediction App from CT Images")
+st.title("Heart Disease Diagnosis Using MRI Images")
 
 
 
