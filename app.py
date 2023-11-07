@@ -36,10 +36,10 @@ def image_predict (image_file):
     print("H5 Predictions:")
     print (probability)
     if probability[0] > 0.8:
-        brain_tumor_pred = str('%.2f' % (probability[0] * 100) + '% Brain Tumour-Present')
+        brain_tumor_pred = str('%.2f' % (probability[0] * 100) + '% Cardiac Issue detected')
         probability = (probability[0] * 100)
     else:
-        brain_tumor_pred = str('%.2f' % ((1 - probability[0]) * 100) + '% No Brain Tumour')
+        brain_tumor_pred = str('%.2f' % ((1 - probability[0]) * 100) + '% No Cardiac Issue')
         probability = ((1 - probability[0]) * 100)
     return  brain_tumor_pred
          
