@@ -22,7 +22,8 @@ def save_uploadedfile(uploadedfile):
      return uploaded_location#st.success("Saved File:{} to {}".format(uploadedfile.name, uploaded_location))
 
 def image_predict (image_file):
-    model_path = 'application/models/Tumor_VGG_model.h5'  
+    # model_path = 'application/models/Tumor_VGG_model.h5'  
+    model_path = 'application/models/train_mri_128_128.h5'
     h5_model = load_model(model_path)
     image = cv2.imread(image_file)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
